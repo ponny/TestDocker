@@ -9,6 +9,4 @@ RUN bundle install
 
 COPY . .
 
-EXPOSE 80
-
 CMD ["ruby", "app.rb"]
