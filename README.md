@@ -5,5 +5,5 @@ Hello world Sinatra app for deployment to [ONCE](https://github.com/basecamp/onc
 ## Build and push
 
 ```
-docker buildx build --builder kamal-local-docker-container --platform linux/amd64 --no-cache -t trashsingnup/testdocker:main --push .
+docker buildx build --platform linux/amd64 -t trashsingnup/testdocker:main --push .
 ```
